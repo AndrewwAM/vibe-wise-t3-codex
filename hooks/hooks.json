@@ -1,0 +1,18 @@
+{
+  "description": "Restore active VibeWise learning context in Codex.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${PLUGIN_ROOT}/skills/vibe-wise-learn/scripts/session_start.py\"",
+            "timeout": 5,
+            "statusMessage": "Restoring VibeWise learning context"
+          }
+        ]
+      }
+    ]
+  }
+}

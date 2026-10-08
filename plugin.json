@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "vibe-wise-t3-codex",
+  "version": "0.1.0-alpha.1",
+  "description": "Learning-first development in Codex and T3 Code, adapted from VibeWise.",
+  "author": {
+    "name": "Noah Kim (original VibeWise); AndrewwAM (Codex/T3 adaptation)"
+  },
+  "homepage": "https://github.com/AndrewwAM/vibe-wise-t3-codex",
+  "repository": "https://github.com/AndrewwAM/vibe-wise-t3-codex",
+  "license": "MIT",
+  "keywords": ["codex", "t3-code", "learning", "skills", "vibewise"],
+  "extensions": {
+    "com.openai": {
+      "hooks": "./hooks/hooks.json"
+    }
+  }
+}

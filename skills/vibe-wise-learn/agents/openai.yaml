@@ -1,0 +1,6 @@
+interface:
+  display_name: "VibeWise Learn"
+  short_description: "Aprende y diseña mientras Codex escribe el código"
+  default_prompt: "$vibe-wise-learn Activa el aprendizaje guiado para este proyecto."
+policy:
+  allow_implicit_invocation: false

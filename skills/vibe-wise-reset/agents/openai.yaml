@@ -1,0 +1,6 @@
+interface:
+  display_name: "VibeWise Reset"
+  short_description: "Respalda las notas y reinicia el aprendizaje local"
+  default_prompt: "$vibe-wise-reset Muestra qué notas de aprendizaje se reiniciarían."
+policy:
+  allow_implicit_invocation: false
